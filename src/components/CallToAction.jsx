@@ -48,7 +48,7 @@ export default function CallToAction() {
   }, [])
 
   const handleHireMe = () => {
-    window.open('mailto:alex@example.com?subject=Let\'s Work Together', '_blank')
+    window.open('mailto:ardhipurna11@gmail.com?subject=Let\'s Work Together', '_blank')
   }
 
   const handleDownloadCV = () => {
@@ -94,7 +94,7 @@ export default function CallToAction() {
             variant="outline" 
             size="lg"
             onClick={handleDownloadCV}
-            className="text-lg px-8 py-3 border-white text-white hover:bg-white hover:text-indigo-600 transition-colors opacity-0"
+            className="text-lg px-8 py-3 border-white text-indigo-600 hover:bg-white hover:text-indigo-800 transition-colors opacity-0"
             aria-label="Download my resume as PDF"
           >
             <Download className="mr-2 w-5 h-5" />

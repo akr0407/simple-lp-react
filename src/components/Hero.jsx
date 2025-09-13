@@ -66,7 +66,7 @@ export default function Hero() {
         >
           Hi, I'm{' '}
           <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Alex Johnson
+            Ardhi Purna
           </span>
         </h1>
         
@@ -93,7 +93,7 @@ export default function Hero() {
           <Button 
             variant="outline" 
             size="lg"
-            onClick={() => window.open('mailto:alex@example.com')}
+            onClick={() => window.open('mailto:ardhipurna11@gmail.com')}
             className="text-lg px-8 py-3"
             aria-label="Get in touch via email"
           >
